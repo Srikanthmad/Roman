@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "swiggy"
+		},
+		"DataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"SqlDatabase_password": {
+			"value": ""
+		},
+		"DataLakeStorage_properties_typeProperties_url": {
+			"value": "https://swiggyaccount.dfs.core.windows.net/"
+		},
+		"SqlDatabase_properties_typeProperties_server": {
+			"value": "roman.database.windows.net"
+		},
+		"SqlDatabase_properties_typeProperties_database": {
+			"value": "chinna"
+		},
+		"SqlDatabase_properties_typeProperties_userName": {
+			"value": "sriadmin"
+		}
+	}
+}
