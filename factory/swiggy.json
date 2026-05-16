@@ -1,0 +1,15 @@
+{
+	"name": "swiggy",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "69478ccf-dbaa-490c-b960-75ba6d6784cd",
+		"tenantId": "93240c53-1591-4afb-817d-ee8ac26a5442"
+	}
+}
